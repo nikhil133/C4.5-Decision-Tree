@@ -1,0 +1,5 @@
+Active, Default, Write Off
+loan_amount:continuous
+repaid_amount:continuous
+days:continuous
+number_of_loans:continuous
