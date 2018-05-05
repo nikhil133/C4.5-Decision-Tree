@@ -10,5 +10,5 @@ Tree pruning is done to reduce the depth of the tree.
 
 ### Information Gain
   **Entropy**: Entropy H(S) is a measure of the amount of uncertainty in the (data) set S
-                      H(S)=-\sum _{x\in X}}-p(x)\log _{2}p(x)
+                \sum_{\substack{0<i<m\0<j<n}} P(i, j)
                       
