@@ -9,7 +9,5 @@ ID3 is best used to classify data with shorter size. Since large amount of data 
 Tree pruning is done to reduce the depth of the tree.
 
 ### Information Gain
-      ##### Entropy: Entropy {\displaystyle H(S)} H(S) is a measure of the amount of uncertainty in the (data) set {\displaystyle S} S (i.e. entropy characterizes the (data) set {\displaystyle S} S).
-
-{\displaystyle H(S)=\sum _{x\in X}-p(x)\log _{2}p(x)} {\displaystyle H(S)=\sum _{x\in X}-p(x)\log _{2}p(x)}
-  
+      ##### Entropy: Entropy H(S) is a measure of the amount of uncertainty in the (data) set S
+                      `H(S)=-\sum _{x\in X}-p(x)\log _{2}p(x)}` 
