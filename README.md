@@ -19,16 +19,17 @@ Tree pruning is done to reduce the depth of the tree.
   
 ## Example on Number.csv data
 
-|__Number__|__Goal__|
-|__1__|__No__|
-|__315__|__Yes__|
-|__70__|__Yes__|
-|__120__|__Yes__|
-|__106__|__Yes__|
-|__15__|__No__|
-|__80__|__No__|
-|__107__|__Yes__|
-|__70__|__No__|
-|__150__|__Yes__|
+|Number|Goal|
+|---|---|
+|1|No|
+|315|Yes|
+|70|Yes|
+|120|Yes|
+|106|Yes|
+|15|No|
+|80|No|
+|107|Yes|
+|70|No|
+|150|Yes|
 
   
