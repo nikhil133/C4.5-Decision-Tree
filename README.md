@@ -19,7 +19,7 @@ Tree pruning is done to reduce the depth of the tree.
   
 ## Example on Number.csv data
 
-![tree](https://lh6.googleusercontent.com/nVuyst0tE_B1q7bRDGBwHNU7wrEYTOYYnotYb9LHrtoF_eR1Bn58--U1QnHX0qAMPXt_pR_FT-JXywnILwQ2=w1349-h618-rw)
+![tree](https://github.com/nikhil133/C4.5-Decision-Tree/blob/master/image/c45-1.jpg?raw=true)
 
 |Number|Goal|
 |---|---|
