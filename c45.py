@@ -33,7 +33,9 @@ class C45:
 
 	def preprocessData(self):
 		for index,row in enumerate(self.data):
+			#print("index: {} row : {} ".format(index,row))
 			for attr_index in range(self.numAttributes):
+			#	print("attr_index: {} attribute[{}]: {}".format(attr_index,attr_index,self.attributes[attr_index]))
 				if(not self.isAttrDiscrete(self.attributes[attr_index])):
 					self.data[index][attr_index] = float(self.data[index][attr_index])
 
@@ -91,7 +93,9 @@ class C45:
 			remainingAttributes = curAttributes[:]
 			remainingAttributes.remove(best)
 			node = Node(False, best, best_threshold)
+			print(node.children)
 			node.children = [self.recursiveGenerateTree(subset, remainingAttributes) for subset in splitted]
+
 			return node
 
 	def getMajClass(self, curData):
@@ -133,10 +137,10 @@ class C45:
 				subsets = [[] for a in valuesForAttribute]
 				for row in curData:
 					for index in range(len(valuesForAttribute)):
-						if row[i] == valuesForAttribute[index]:
+						if row[indexOfAttribute] == valuesForAttribute[index]:
 							subsets[index].append(row)
 							break
-				e = gain(curData, subsets)
+				e = self.gain(curData, subsets)
 				if e > maxEnt:
 					maxEnt = e
 					splitted = subsets
